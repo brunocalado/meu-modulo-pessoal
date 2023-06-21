@@ -1,0 +1,79 @@
+{
+  "id":"meu-modulo-pessoal",
+  "title":"Meu Módulo Pessoal",
+  "description":"Esse é meu módulo. Aqui posso colocar o que quiser!",
+  
+  "version":"1.0.0",
+  
+  "authors":[
+    {
+      "name":"Meu nome!",
+      "url":"https://www.meusite.com.br/"
+    }
+  ],
+  
+  "compatibility":{
+    "minimum":"11",
+    "verified":"11"
+  },
+  
+  "packs":[
+    {
+      "name":"module-creatures",
+      "label":"Module Creatures",
+      "path":"./packs/creatures",
+      "type":"Actor",
+      "system":"dnd5e"
+    },
+    {
+      "name":"module-items",
+      "label":"Module Items",
+      "path":"./packs/items",
+      "type":"Item",
+      "system":"dnd5e"
+    },
+    {
+      "name":"module-scenes",
+      "label":"Module Scenes",
+      "path":"./packs/scenes",
+      "type":"Scene"
+    },
+    {
+      "name":"module-journal-entries",
+      "label":"Module Journal Entries",
+      "path":"./packs/journal-entries",
+      "type":"JournalEntry"
+    },
+    {
+      "name":"module-macros",
+      "label":"Module Macros",
+      "path":"./packs/macros",
+      "type":"Macro"
+    },
+    {
+      "name":"module-roll-tables",
+      "label":"Module Roll Tables",
+      "path":"./packs/roll-tables",
+      "type":"RollTable"
+    },
+    {
+      "name":"module-playlists",
+      "label":"Module Playlists",
+      "path":"./packs/playlists",
+      "entity":"Playlist",
+      "type":"Playlist"
+    },
+    {
+      "name":"module-adventures",
+      "label":"Module Adventures",
+      "path":"./packs/adventures",
+      "entity":"Adventure",
+      "type":"Adventure"
+    }
+  ],
+  
+  "url":"",
+  "manifest":"",
+  "download":""
+  
+}
